@@ -15,7 +15,6 @@ def ceaser(character, crypto): # istediğimiz karaktere kadar şifreleme ve öte
     with open("metin.txt","r",encoding = "utf-8") as file: # dosyayı açtım
         for i in file: # dosya içinde dönüş yaptım
             text = text +i # yeni bir text oluşturarak oraya ekledim
-        # metin = len(chr(text))
         for i in text: # oluşturduğum text için döndürdüm 
             i.lower()
             ceaserFile = "" # şifreleme için yeni bir dizi oluşturdum
@@ -32,7 +31,7 @@ sezar = ceaser(character, crypto)
 print("orjinal hali: " , original)
 print("sezar şifreleme ile: " + sezar)
 
-
+#ceaserCryptology111
 
 
 
